@@ -1,3 +1,10 @@
+---
+title: Aatrox Abilities
+slug: aatrox-abilities
+createdAt: 2025-01-27T10:00:00.000Z
+updatedAt: 2025-01-27T10:00:00.000Z
+---
+
 # Aatrox Abilities
 
 Detailed breakdown of Aatrox's kit.

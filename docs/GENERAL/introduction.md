@@ -1,3 +1,10 @@
+---
+title: Introduction to the Project
+slug: introduction
+createdAt: 2025-01-27T10:00:00.000Z
+updatedAt: 2025-01-27T10:00:00.000Z
+---
+
 # Introduction to the Project
 
 Welcome to the official documentation for **\[Your Project Name]**! 👋

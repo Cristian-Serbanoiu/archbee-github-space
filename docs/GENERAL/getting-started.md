@@ -1,3 +1,10 @@
+---
+title: Setup Guide — Getting Started
+slug: getting-started
+createdAt: 2025-01-27T10:00:00.000Z
+updatedAt: 2025-01-27T10:00:00.000Z
+---
+
 # Setup Guide: Getting Started
 
 This guide covers the initial steps to get **[Your Project Name]** up and running on your system.

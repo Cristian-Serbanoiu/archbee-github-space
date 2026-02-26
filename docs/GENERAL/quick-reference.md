@@ -1,3 +1,10 @@
+---
+title: Quick Reference
+slug: quick-reference
+createdAt: 2025-01-27T10:00:00.000Z
+updatedAt: 2025-01-27T10:00:00.000Z
+---
+
 # Quick Reference
 
 A short reference for common tasks and links.

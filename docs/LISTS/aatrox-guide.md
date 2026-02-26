@@ -1,3 +1,10 @@
+---
+title: Aatrox — The Darkin Blade
+slug: aatrox-guide
+createdAt: 2025-01-27T10:00:00.000Z
+updatedAt: 2025-01-27T10:00:00.000Z
+---
+
 # Aatrox — The Darkin Blade
 
 Aatrox is a **Juggernaut** champion in League of Legends, the host of the Darkin blade who seeks to end all life and free himself from imprisonment.
