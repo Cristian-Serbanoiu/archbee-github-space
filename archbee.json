@@ -35,6 +35,15 @@
         "isCategory": true,
         "children": [
           {
+            "path": "LISTS/aatrox-guide.md",
+            "children": [
+              {
+                "path": "LISTS/aatrox-abilities.md",
+                "children": []
+              }
+            ]
+          },
+          {
             "path": "LISTS/bulleted-advanced.md",
             "children": []
           },
