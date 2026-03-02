@@ -35,6 +35,14 @@
         "isCategory": true,
         "children": [
           {
+            "path": "LISTS/aatrox-abilities.md",
+            "children": []
+          },
+          {
+            "path": "LISTS/aatrox-guide.md",
+            "children": []
+          },
+          {
             "path": "LISTS/bulleted-advanced.md",
             "children": []
           },
@@ -44,6 +52,18 @@
           },
           {
             "path": "LISTS/checklist-advanced.md",
+            "children": []
+          },
+          {
+            "path": "LISTS/checklist-scenarios.md",
+            "children": []
+          },
+          {
+            "path": "LISTS/numbered-advanced.md",
+            "children": []
+          },
+          {
+            "path": "LISTS/numbered-scenarios.md",
             "children": []
           }
         ]
