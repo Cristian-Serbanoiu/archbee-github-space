@@ -6,7 +6,7 @@
     "docsTree": [
       {
         "categoryName": "GENERAL",
-        "isCategory": false,
+        "isCategory": true,
         "path": "GENERAL",
         "children": [
           {
