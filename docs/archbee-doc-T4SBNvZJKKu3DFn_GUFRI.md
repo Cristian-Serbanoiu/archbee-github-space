@@ -1,10 +1,16 @@
-# Children 2
+# Aatrox build
 
-This doc continues the child content series.
+Recommended items and runes for the Darkin Blade.
 
-**In this section**
+**Items**
 
-- Details and examples for the second topic.
-- How it connects to Children 1 and Children 3.
+- **Mythic:** Eclipse or Goredrinker for damage and survivability.
+- **Core:** Black Cleaver, Sterak's Gage, Death's Dance.
+- **Situational:** Thornmail vs healing, Spirit Visage for more healing amp.
 
-Check **Children 1** for context and **Children 3** for the next part.
+**Runes**
+
+- **Keystone:** Conqueror (sustained fights) or Electrocute (burst).
+- **Secondary:** Resolve — Second Wind, Revitalize for lane and teamfights.
+
+For ability details see **Aatrox abilities**; for execution see **Aatrox combos**.

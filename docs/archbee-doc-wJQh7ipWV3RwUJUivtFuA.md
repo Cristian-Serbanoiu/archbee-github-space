@@ -1,10 +1,17 @@
-# Children 3
+# Aatrox combos
 
-This doc wraps up the child content series.
+Core sequences to get the most out of Aatrox's kit.
 
-**Summary**
+**Basic trade**
 
-- Final section of the three-part flow.
-- Recap and where to go next in the space.
+Q1 → E (reposition for sweet spot) → auto. Back off or follow with Q2 if they're low.
 
-For the full flow, start with **Children 1**, then **Children 2**, then return here.
+**All-in**
+
+R before or as you engage. Q1 → E → W → Q2 (sweet spot) → Q3. Use E to keep the blade edge on the target; Conqueror and R healing keep you alive.
+
+**Teamfight**
+
+Flank or wait for CC, then R and focus carries. Land Q sweet spots for knockups and damage. Takedowns extend R and give revive — chain kills to stay in the fight.
+
+For full ability breakdown see **Aatrox abilities**; for items and runes see **Aatrox build**.
