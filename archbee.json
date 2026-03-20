@@ -5,13 +5,13 @@
     "assets": "assets",
     "docsTree": [
       {
-        "path": "GENERAL/url-bla-bla.md",
-        "children": []
-      },
-      {
         "categoryName": "GENERAL",
         "isCategory": true,
         "children": [
+          {
+            "path": "GENERAL/url-bla-bla.md",
+            "children": []
+          },
           {
             "path": "GENERAL/getting-started.md",
             "children": [],
