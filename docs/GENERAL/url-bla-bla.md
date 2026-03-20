@@ -2,17 +2,21 @@
 title: bla bla
 slug: url-bla-bla
 docTags: Revenge
-createdAt: Wed Mar 18 2026 15:09:31 GMT+0000 (Coordinated Universal Time)
-updatedAt: Wed Mar 18 2026 15:10:22 GMT+0000 (Coordinated Universal Time)
+createdAt: Fri Mar 20 2026 09:04:33 GMT+0000 (Coordinated Universal Time)
+updatedAt: Fri Mar 20 2026 09:08:04 GMT+0000 (Coordinated Universal Time)
 ---
 
-bla content \{\{PRODUCT\_02}}&#x20;
+***VARIABLE:&#x20;***\{\{PRODUCT\_02}}&#x20;
+
+***CONTENT SNIPPET:***
 
 :::ContentSnippet{docRefId="IOQVkUNUKZP4S5CSlNiFi"}
 
 :::
 
+::File[]{src="https://api.qa.archbee.co/api/presign/-ojPTDCxvH0gZVunvkOhv/L2U0ByfPGSija1LoJlBPg-20260320-090636.yml" label="cypress-e2e-tests-pr.yml"}
 
-::::ContentSnippet{docRefId="FHZQQFeV_9t0y2DLcQpDS"}
+![](https://api.qa.archbee.co/api/optimize/-ojPTDCxvH0gZVunvkOhv/CHAcLvAoE2M8SJl-OPQNA_cat-sa-mai-duc.png)
 
-::::
+![](https://api.qa.archbee.co/api/optimize/-ojPTDCxvH0gZVunvkOhv/H_d9Rcn3ulVzz1l0wx21A_aha.png)
+
