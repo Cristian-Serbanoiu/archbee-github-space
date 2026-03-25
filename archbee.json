@@ -138,6 +138,26 @@
           {
             "path": "LISTS/numbered-scenarios.md",
             "children": []
+          },
+          {
+            "path": "LISTS/mixed-surface-lists.md",
+            "children": []
+          },
+          {
+            "path": "LISTS/task-planning-checklists.md",
+            "children": []
+          },
+          {
+            "path": "LISTS/indented-outline-patterns.md",
+            "children": []
+          },
+          {
+            "path": "LISTS/roadmap-constraints-and-risks.md",
+            "children": []
+          },
+          {
+            "path": "LISTS/format-stress-tests.md",
+            "children": []
           }
         ]
       },
