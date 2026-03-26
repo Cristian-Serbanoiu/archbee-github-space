@@ -1,12 +1,11 @@
 ---
 title: All blocks
 slug: all-blocks
-docTags: Ochanissi
-seo:
 description: THIS IS THE DESCRIPTION
 image: https://archbee-image-uploads-qa.s3.amazonaws.com/-ojPTDCxvH0gZVunvkOhv/yzQBF35mg9KrlDllw05ua_cat-sa-mai-duc.png
-createdAt: 2025-01-27T10:00:00.000Z
-updatedAt: 2025-01-27T10:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
 # All blocks

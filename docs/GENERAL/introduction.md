@@ -1,10 +1,11 @@
 ---
 title: Introduction to the Project
 slug: introduction-to-the-project
-docTags: Revenge
-seo:
 description: THIS IS THE DESCRIPTION
 image: https://archbee-image-uploads-qa.s3.amazonaws.com/-ojPTDCxvH0gZVunvkOhv/yzQBF35mg9KrlDllw05ua_cat-sa-mai-duc.png
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
 # Introduction to the Project
@@ -27,7 +28,7 @@ Test
 - 🔗 **Easy Integration:** Works seamlessly with existing systems.
 - 💡 **Intuitive Interface:** Get started without a steep learning curve.
 
-To begin, head over to the [**Getting Started Guide**]().
+To begin, head over to the [**Getting Started Guide**](#).
 
 # HEADING
 
@@ -48,13 +49,4 @@ To begin, head over to the [**Getting Started Guide**]().
     <td>
     </td>
   </tr>
-  <tr>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-  </tr>
 </table>
-

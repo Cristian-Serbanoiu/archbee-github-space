@@ -1,9 +1,9 @@
 ---
 title: VERTICAL SPLIT SCENARIOS
 slug: split-scenarios
-docTags: Revenge
-createdAt: 2025-01-27T10:00:00.000Z
-updatedAt: 2025-01-27T10:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
 # VERTICAL SPLIT SCENARIOS
@@ -578,4 +578,3 @@ updatedAt: 2025-01-27T10:00:00.000Z
 ❌ App issues
 :::
 ::::
-

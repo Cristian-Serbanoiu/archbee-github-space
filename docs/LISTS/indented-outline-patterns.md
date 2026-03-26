@@ -1,9 +1,9 @@
 ---
 title: Indented Outline Patterns
 slug: indented-outline-patterns
-docTags: ListLab
-createdAt: 2026-03-25T00:00:00.000Z
-updatedAt: 2026-03-25T00:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
 ---
 
 # INDENTED OUTLINE PATTERNS
@@ -32,18 +32,14 @@ An outline is easiest to read when indentation is consistent. This page focuses 
    - Fixed
    - Improved
 3. How to verify
-   - [ ] Run smoke test
-   - [ ] Validate edge cases
-   - [ ] Confirm copy/paste friendly formatting
+
+- [ ] Run smoke test
+- [ ] Validate edge cases
+- [ ] Confirm copy/paste friendly formatting
 
 ## Indentation stress test
 
 - Formatting edge cases
-  - [ ] Bullet inside checklist item
-    1. Step A
-    2. Step B
-  - [ ] Checklist inside a numbered context
-    1. Choose a section
-       - [ ] Add checklist markers
-       - [ ] Add nested bullets
 
+* [ ] Bullet inside checklist item
+* [ ] Checklist inside a numbered context

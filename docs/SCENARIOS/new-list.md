@@ -1,9 +1,9 @@
 ---
 title: LIST SCENARIOS NEW
 slug: list-scenarios-new
-docTags: BogBee
-createdAt: 2025-01-28T10:00:00.000Z
-updatedAt: 2025-01-28T10:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
 ---
 
 # 📝 CONTENT & LIST SCENARIOS
@@ -13,6 +13,7 @@ updatedAt: 2025-01-28T10:00:00.000Z
 ### COMPREHENSIVE RENOVATION CHECKLIST
 
 **PHASE 1: PLANNING & PREPARATION**
+
 - Research and finalize design plans
 - Set realistic budget with 20% contingency
 - Obtain necessary building permits

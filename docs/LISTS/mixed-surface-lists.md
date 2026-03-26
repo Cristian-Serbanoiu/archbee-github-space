@@ -1,9 +1,9 @@
 ---
 title: Mixed Surface Lists
 slug: mixed-surface-lists
-docTags: ListLab
-createdAt: 2026-03-25T00:00:00.000Z
-updatedAt: 2026-03-25T00:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
 # MIXED LIST SURFACES
@@ -35,14 +35,5 @@ This document mixes multiple list types in a single layout to show how indentati
 ## Checklist + numbered micro-steps
 
 - [ ] Prepare content skeleton
-  - [ ] Write headings
-  - [ ] Add at least one bulleted list
 - [ ] Produce detail section
-  - [ ] Insert nested bullets
-  - [ ] Add a numbered sub-sequence
-    1. Example item one
-    2. Example item two
 - [ ] Final pass
-  - [ ] Check spacing
-  - [ ] Verify every list renders
-

@@ -1,9 +1,9 @@
 ---
 title: Task Planning Checklists
 slug: task-planning-checklists
-docTags: ListLab
-createdAt: 2026-03-25T00:00:00.000Z
-updatedAt: 2026-03-25T00:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
 # TASK PLANNING CHECKLISTS AND WORKPLANS
@@ -13,12 +13,7 @@ Use this page as a template for turning ambiguous work into a checklist that als
 ## Checklist for kickoff
 
 - [ ] Intake notes
-  - [ ] Who is the audience?
-  - [ ] What is the desired outcome?
 - [ ] Constraints
-  - [ ] Time window
-  - [ ] Allowed formats
-  - [ ] Done definition
 
 ## Numbered workplan with sub-bullets
 
@@ -39,4 +34,3 @@ Use this page as a template for turning ambiguous work into a checklist that als
 - [ ] At least one list demonstrates deep indentation
 - [ ] At least one list demonstrates mixed nesting
 - [ ] No list item contains contradictory instruction
-
