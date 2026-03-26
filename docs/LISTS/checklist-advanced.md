@@ -1,9 +1,9 @@
 ---
 title: ADVANCED CHECKLIST SCENARIOS
 slug: checklist-advanced
-docTags: Ochanissi
-createdAt: 2025-01-27T10:00:00.000Z
-updatedAt: 2025-01-27T10:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
 ---
 
 # ADVANCED CHECKLIST SCENARIOS
@@ -95,4 +95,3 @@ Ensure all devices are on the same network segment for optimal performance and s
 **LIGHTING SCENES**
 Configure automated lighting schedules and scenes
 :::
-

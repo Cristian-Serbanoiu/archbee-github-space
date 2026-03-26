@@ -1,9 +1,9 @@
 ---
 title: Aatrox Abilities
 slug: aatrox-abilities
-docTags: Fangg19
-createdAt: 2025-01-27T10:00:00.000Z
-updatedAt: 2025-01-27T10:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
 # Aatrox Abilities

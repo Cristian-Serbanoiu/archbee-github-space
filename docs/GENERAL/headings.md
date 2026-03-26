@@ -1,8 +1,9 @@
 ---
 title: Headings
 slug: headings
-docTags: BogBee
-updatedAt: Fri Mar 20 2026 14:25:25 GMT+0000 (Coordinated Universal Time)
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
 # Heading 1

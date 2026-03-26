@@ -1,9 +1,9 @@
 ---
 title: DROP LIST SCENARIOS
 slug: droplist-scenarios
-docTags: Ochanissi
-createdAt: 2025-01-27T10:00:00.000Z
-updatedAt: 2025-01-27T10:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
 ---
 
 # 📋 KANBAN & PROJECT MANAGEMENT SCENARIOS

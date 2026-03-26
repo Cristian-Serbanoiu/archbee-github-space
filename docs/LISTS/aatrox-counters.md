@@ -1,7 +1,9 @@
 ---
 title: Aatrox counters
 slug: aatrox-counters
-docTags: BogBee
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:55 GMT+0200 (Eastern European Standard Time)
 ---
 
 # Aatrox counters

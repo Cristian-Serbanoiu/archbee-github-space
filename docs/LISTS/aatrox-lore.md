@@ -1,7 +1,9 @@
 ---
 title: Aatrox lore
 slug: aatrox-lore
-docTags: BogBee
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
 # Aatrox lore

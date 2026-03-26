@@ -1,9 +1,9 @@
 ---
 title: Format Stress Tests
 slug: format-stress-tests
-docTags: ListLab
-createdAt: 2026-03-25T00:00:00.000Z
-updatedAt: 2026-03-25T00:00:00.000Z
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
 # FORMAT STRESS TESTS
@@ -13,12 +13,10 @@ This page is intentionally "ugly" on purpose: it combines multiple list markers 
 ## Mixed nesting examples
 
 1. Collect sources
-   - [ ] Links
-     - Website
-     - Issue tracker
-   - [ ] Notes
-     - Decisions made
-     - Open questions
+
+- [ ] Links
+- [ ] Notes
+
 2. Convert sources into doc lists
    - Bulleted section
    - Numbered section
@@ -35,17 +33,8 @@ This page is intentionally "ugly" on purpose: it combines multiple list markers 
 ## Checklist items with indented bullet siblings
 
 - [ ] Validate layout
-  - [ ] Confirm spacing is consistent
-  - [ ] Confirm nested list markers start at the right column
 - [ ] Validate content
-  - Use precise verbs
-  - Avoid vague items
-  - Keep each list item self-contained
 
 ## Checklist items with indented numbered substeps
 
 - [ ] Final rendering check
-  1. Paste into your viewer
-  2. Scan for mis-nesting
-  3. Correct indentation before shipping
-

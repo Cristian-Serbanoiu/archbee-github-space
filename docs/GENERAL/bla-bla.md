@@ -3,12 +3,12 @@ title: bla bla
 slug: bla-bla
 description: THIS IS THE DESCRIPTION
 image: https://archbee-image-uploads-qa.s3.amazonaws.com/-ojPTDCxvH0gZVunvkOhv/yzQBF35mg9KrlDllw05ua_cat-sa-mai-duc.png
-docTags: Fangg19
-createdAt: Fri Mar 20 2026 14:25:23 GMT+0000 (Coordinated Universal Time)
-updatedAt: Fri Mar 20 2026 14:30:52 GMT+0000 (Coordinated Universal Time)
+docTags: 
+createdAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
+updatedAt: Thu Mar 26 2026 13:38:54 GMT+0200 (Eastern European Standard Time)
 ---
 
-**VARIABLE*****:&#x20;***\{\{PRODUCT\_02}}&#x20;
+**VARIABLE**&#xNAN;**\*:&#x20;**\*\{\{PRODUCT\_02}}&#x20;
 
 **CONTENT SNIPPET:**
 
@@ -21,4 +21,3 @@ updatedAt: Fri Mar 20 2026 14:30:52 GMT+0000 (Coordinated Universal Time)
 ![](https://api.qa.archbee.co/api/optimize/-ojPTDCxvH0gZVunvkOhv/CHAcLvAoE2M8SJl-OPQNA_cat-sa-mai-duc.png)
 
 ![](https://api.qa.archbee.co/api/optimize/-ojPTDCxvH0gZVunvkOhv/H_d9Rcn3ulVzz1l0wx21A_aha.png)
-
