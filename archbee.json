@@ -215,6 +215,18 @@
             "children": []
           },
           {
+            "path": "SCENARIOS/sync-test-duplicate-a.md",
+            "children": []
+          },
+          {
+            "path": "SCENARIOS/sync-test-duplicate-b.md",
+            "children": []
+          },
+          {
+            "path": "SCENARIOS/sync-test-duplicate-a.md",
+            "children": []
+          },
+          {
             "path": "SCENARIOS/tabs-scenarios.md",
             "children": []
           },
