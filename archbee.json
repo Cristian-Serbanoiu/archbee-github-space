@@ -17,47 +17,76 @@
   "isPublicBackgroundEnabled": true,
   "docsPath": "docs/",
   "structure": {
-    "summary": "ALL-BLOCKS/heading-expandable-blocks.md",
+    "summary": "BASIC/heading-expandable-blocks.md",
     "assets": "assets",
     "docsTree": [
       {
-        "categoryName": "ALL-BLOCKS",
+        "categoryName": "BASIC",
         "isCategory": true,
         "children": [
           {
-            "path": "ALL-BLOCKS/archbee-doc-wmGtK8kz1Z_YeHz9ZM3gu.mdx",
+            "path": "BASIC/heading-expandable-blocks.md",
             "children": []
           },
           {
-            "path": "ALL-BLOCKS/heading-expandable-blocks.md",
+            "path": "BASIC/checklist-list-blocks.md",
             "children": []
           },
           {
-            "path": "ALL-BLOCKS/checklist-list-blocks.md",
+            "path": "BASIC/table-divider-blocks.md",
             "children": []
           },
           {
-            "path": "ALL-BLOCKS/table-divider-blocks.md",
+            "path": "BASIC/buttons-callouts.md",
             "children": []
           },
           {
-            "path": "ALL-BLOCKS/buttons-callouts.md",
+            "path": "BASIC/vertical-split-blocks.md",
             "children": []
           },
           {
-            "path": "ALL-BLOCKS/vertical-split-blocks.md",
+            "path": "BASIC/minitasker.md",
             "children": []
           },
           {
-            "path": "ALL-BLOCKS/minitasker.md",
+            "path": "BASIC/link-grids-blocks.md",
             "children": []
           },
           {
-            "path": "ALL-BLOCKS/link-grids-blocks.md",
+            "path": "BASIC/workflow-tabs-blocks.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "categoryName": "MEDIA",
+        "isCategory": true,
+        "children": [
+          {
+            "path": "MEDIA/file-blocks.md",
+            "name": "Files",
             "children": []
           },
           {
-            "path": "ALL-BLOCKS/workflow-tabs-blocks.md",
+            "path": "MEDIA/images-embeds.md",
+            "children": []
+          },
+          {
+            "path": "MEDIA/map-blocks.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "categoryName": "DEVELOPER",
+        "isCategory": true,
+        "children": [
+          {
+            "path": "DEVELOPER/tex-mermaid-blocks.md",
+            "children": []
+          },
+          {
+            "path": "DEVELOPER/changelog-blocks.md",
             "children": []
           }
         ]

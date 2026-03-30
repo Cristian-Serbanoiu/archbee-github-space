@@ -1,7 +1,7 @@
 # Archbee Space
 
-Documentation space for blocks, lists, and scenarios. Content lives in `docs/` and is structured in **archbee.json**.
+Documentation space for blocks. Content lives in `docs/` and is structured in **archbee.json**.
 
-**Categories:** ALL-BLOCKS (and more in `archbee.json`).
+**Categories:** **BASIC**, **MEDIA**, **DEVELOPER** (see `archbee.json` for order and paths).
 
-Start with `docs/ALL-BLOCKS/heading-expandable-blocks.md` or browse the sidebar order in **archbee.json**.
+Start with `docs/BASIC/heading-expandable-blocks.md` or browse the sidebar in **archbee.json**.
