@@ -12,7 +12,7 @@ description: >-
 
 - **Archbee** documentation synced from/to GitHub.
 - **Source of navigation:** `archbee.json` (`structure.docsTree`, `structure.summary`, `docsPath`).
-- **Docs layout:** `docs/BASIC/`, `docs/MEDIA/`, `docs/DEVELOPER/` — see **Block taxonomy** below.
+- **Docs layout:** `NOXUS/BASIC/`, `NOXUS/MEDIA/`, `NOXUS/DEVELOPER/` — see **Block taxonomy** below.
 
 ## Block taxonomy (how Archbee categorizes blocks)
 
@@ -64,7 +64,7 @@ Content authored in GitHub must use patterns Archbee’s parser recognizes. **JS
 | **Changelog** | `:::changelog{title="…"}` + lines `::changelog-item{type="…" description="…"}` + close `:::` | `DEVELOPER/changelog-block.md` |
 | **Map** | `:::::Map` + ` ```json` { center, zoom, markerPositions } + `:::::` | `MEDIA/map-block.md` |
 | **File** | `::File[]{isUploading="false"}` or `::File[]{src="…" label="…" caption}` | `MEDIA/file-block.md` |
-| **Image** | `![](url)` | **Images & YouTube Videos** — `MEDIA/images-embeds-blocks.md` |
+| **Image** | `![](https://example.com/image.png)` | **Images & YouTube Videos** — `MEDIA/images-embeds-blocks.md` |
 | **YouTube Video** | `:::::Embed{url="https://youtu.be/…"}` + `:::::` (fallback: `:::::Video{url="…"}` or plain YouTube URL line) | `MEDIA/images-embeds-blocks.md` |
 | **Code Editor** | Fenced code block (for example ` ```javascript`) | `DEVELOPER/code-editor-block.md` |
 | **Code Drawer** | `::::CodeDrawer{...}` + nested `:::CodeblockTabsExamples/Responses` | `DEVELOPER/code-drawer-block.md` |
@@ -73,7 +73,7 @@ Content authored in GitHub must use patterns Archbee’s parser recognizes. **JS
 | **Swagger** | `:::::Swagger` + fenced `json` (`jsonFileLocation`, `headers`) + `:::::` | `DEVELOPER/swagger-block.md` |
 | **API Endpoint** | `:::::ApiMethodV2` + fenced `json` (full method payload) + `:::::` | `DEVELOPER/api-endpoint-block.md` |
 
-For this repo, **do not invent syntax**. Copy from the matching showcase file under `docs/`.  
+For this repo, **do not invent syntax**. Copy from the matching showcase file under `NOXUS/`.  
 Known-safe patterns: GraphQL uses `:::GraphiQL ... :::`; Scalar/Swagger/API Endpoint use `:::::BlockName` + inner ` ```json `; Map uses the same wrapper style.
 
 **Icons:** Use only icon shapes confirmed in existing docs (`fa-solid` or known `lucideIcon` values). Avoid `fa-brands`. If tree icon/label is stale, set explicit `name` in `archbee.json` for that doc entry.
@@ -94,9 +94,9 @@ Copy-paste templates live in **[reference-blocks.md](reference-blocks.md)** → 
 | Path | Role |
 |------|------|
 | `archbee.json` | Site name, theme, hosting colors, `docsPath`, full sidebar tree |
-| `docs/BASIC/*.md` | BASIC category examples |
-| `docs/MEDIA/*.md` | MEDIA category examples |
-| `docs/DEVELOPER/*.md` | DEVELOPER category examples |
+| `NOXUS/BASIC/*.md` | BASIC category examples |
+| `NOXUS/MEDIA/*.md` | MEDIA category examples |
+| `NOXUS/DEVELOPER/*.md` | DEVELOPER category examples |
 | `public/` | `favicon.ico`, `logo-light.png`, `logo-dark.png` — referenced by `faviconURL` / `publicLogoURL` / `darkPublicLogoURL` |
 
 ## Naming and product language (follow these)

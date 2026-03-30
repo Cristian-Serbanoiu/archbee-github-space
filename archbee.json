@@ -1,5 +1,6 @@
 {
-  "name": "Revenge",
+  "name": "NOXUS",
+  "icon": "newspaper",
   "template": "stripe",
   "contentLayout": "two-column",
   "publicTheme": "light",
@@ -15,41 +16,42 @@
   "hasPrimaryColorLinks": true,
   "isArchbeeBrandVisible": true,
   "isPublicBackgroundEnabled": true,
-  "docsPath": "docs/",
+  "docsPath": "./",
   "structure": {
-    "summary": "BASIC/heading-expandable-blocks.md",
+    "summary": "NOXUS/BASIC/heading-expandable-blocks",
     "assets": "assets",
     "docsTree": [
       {
         "categoryName": "BASIC",
         "isCategory": true,
+        "icon": "layout-grid",
         "children": [
           {
-            "path": "BASIC/heading-expandable-blocks.md",
+            "path": "NOXUS/BASIC/heading-expandable-blocks",
             "children": []
           },
           {
-            "path": "BASIC/checklist-list-blocks.md",
+            "path": "NOXUS/BASIC/checklist-list-blocks",
             "children": []
           },
           {
-            "path": "BASIC/table-divider-blocks.md",
+            "path": "NOXUS/BASIC/table-divider-blocks",
             "children": []
           },
           {
-            "path": "BASIC/buttons-callouts-blocks.md",
+            "path": "NOXUS/BASIC/buttons-callouts-blocks",
             "children": []
           },
           {
-            "path": "BASIC/vertical-split-blocks.md",
+            "path": "NOXUS/BASIC/vertical-split-blocks",
             "children": []
           },
           {
-            "path": "BASIC/link-grid-block.md",
+            "path": "NOXUS/BASIC/link-grid-block",
             "children": []
           },
           {
-            "path": "BASIC/workflow-tabs-blocks.md",
+            "path": "NOXUS/BASIC/workflow-tabs-blocks",
             "children": []
           }
         ]
@@ -57,17 +59,18 @@
       {
         "categoryName": "MEDIA",
         "isCategory": true,
+        "icon": "image",
         "children": [
           {
-            "path": "MEDIA/file-block.md",
+            "path": "NOXUS/MEDIA/file-block",
             "children": []
           },
           {
-            "path": "MEDIA/images-embeds-blocks.md",
+            "path": "NOXUS/MEDIA/images-embeds-blocks",
             "children": []
           },
           {
-            "path": "MEDIA/map-block.md",
+            "path": "NOXUS/MEDIA/map-block",
             "children": []
           }
         ]
@@ -75,37 +78,38 @@
       {
         "categoryName": "DEVELOPER",
         "isCategory": true,
+        "icon": "code",
         "children": [
           {
-            "path": "DEVELOPER/api-endpoint-block.md",
+            "path": "NOXUS/DEVELOPER/api-endpoint-block",
             "children": []
           },
           {
-            "path": "DEVELOPER/swagger-block.md",
+            "path": "NOXUS/DEVELOPER/swagger-block",
             "children": []
           },
           {
-            "path": "DEVELOPER/scalar-block.md",
+            "path": "NOXUS/DEVELOPER/scalar-block",
             "children": []
           },
           {
-            "path": "DEVELOPER/graphql-block.md",
+            "path": "NOXUS/DEVELOPER/graphql-block",
             "children": []
           },
           {
-            "path": "DEVELOPER/code-drawer-block.md",
+            "path": "NOXUS/DEVELOPER/code-drawer-block",
             "children": []
           },
           {
-            "path": "DEVELOPER/code-editor-block.md",
+            "path": "NOXUS/DEVELOPER/code-editor-block",
             "children": []
           },
           {
-            "path": "DEVELOPER/tex-mermaid-blocks.md",
+            "path": "NOXUS/DEVELOPER/tex-mermaid-blocks",
             "children": []
           },
           {
-            "path": "DEVELOPER/changelog-block.md",
+            "path": "NOXUS/DEVELOPER/changelog-block",
             "children": []
           }
         ]
@@ -113,6 +117,7 @@
       {
         "categoryName": "Shadow Docs",
         "isCategory": true,
+        "icon": "moon",
         "children": [],
         "isShadowDocs": true
       }
@@ -120,18 +125,44 @@
   },
   "sites": [
     {
-      "name": "Changelog",
-      "docsPath": "changelog",
+      "name": "FRELJORD",
+      "docsPath": "./",
       "icon": "newspaper",
       "structure": {
         "docsTree": [
           {
-            "path": "march-2026",
-            "name": "March 2026"
+            "categoryName": "MARCH 2026",
+            "isCategory": true,
+            "icon": "calendar",
+            "children": [
+              {
+                "path": "FRELJORD/march-2026",
+                "name": "Overview"
+              },
+              {
+                "path": "FRELJORD/march-2026-developer-blocks",
+                "name": "Developer Blocks Added"
+              },
+              {
+                "path": "FRELJORD/march-2026-media-and-layout",
+                "name": "Media and Layout Updates"
+              }
+            ]
           },
           {
-            "path": "february-2026",
-            "name": "February 2026"
+            "categoryName": "FEBRUARY 2026",
+            "isCategory": true,
+            "icon": "heart",
+            "children": [
+              {
+                "path": "FRELJORD/february-2026",
+                "name": "Overview"
+              },
+              {
+                "path": "FRELJORD/february-2026-template-blocks",
+                "name": "Block Templates"
+              }
+            ]
           }
         ]
       }
