@@ -12,6 +12,8 @@ For colon-nested blocks (LinkArray, VerticalSplit, etc.), **inner** lines use **
 
 Use these in `docs/BASIC/`, `docs/MEDIA/`, and `docs/DEVELOPER/` markdown. Showcase paths are noted for copy-paste.
 
+**Filename rule:** multi-block pages use `-blocks.md`; single-block pages use `-block.md`.
+
 | Content | Correct pattern | Avoid (often blank after sync) |
 | ------- | ---------------- | ------------------------------- |
 | **TeX** | Fenced code with language `tex` | — |
@@ -21,6 +23,11 @@ Use these in `docs/BASIC/`, `docs/MEDIA/`, and `docs/DEVELOPER/` markdown. Showc
 | **File** | `::File[]{…}` — attrs in `{}`; use `caption` flag on downloads; `isUploading="false"` for empty slot | `<File>…</File>` |
 | **Image** | Standard markdown `![](https://...)` (section **Image**) | — |
 | **YouTube Video** | `:::::Embed{url="https://youtu.be/..."}` + `:::::` (or try `:::::Video{url="..."}` / plain URL on its own line) | `<embed url="...">` |
+| **Code Drawer** | `::::CodeDrawer{...}` with nested `:::CodeblockTabsExamples` and `:::CodeblockTabsResponses` | `<CodeDrawer>...</CodeDrawer>` |
+| **GraphQL / GraphiQL** | `:::GraphiQL` + fenced `json` + `:::` | JSX `<GraphiQL ...>` in `.md` files |
+| **Scalar** | `:::::Scalar` + fenced `json` + `:::::` | `<Scalar data="...">` |
+| **Swagger** | `:::::Swagger` + fenced `json` + `:::::` | `<Swagger data="...">` |
+| **API Endpoint** | `:::::ApiMethodV2` + fenced `json` + `:::::` | `<ApiMethodV2 data="...">` |
 
 ### TeX
 
@@ -55,7 +62,7 @@ See `DEVELOPER/tex-mermaid-blocks.md`.
 :::
 ```
 
-Types: `added`, `improved`, `fixed`, `broken`, `knownIssue`. [Archbee Changelog block](https://www.archbee.com/docs/changelog-block). See `DEVELOPER/changelog-blocks.md`.
+Types: `added`, `improved`, `fixed`, `broken`, `knownIssue`. [Archbee Changelog block](https://www.archbee.com/docs/changelog-block). See `DEVELOPER/changelog-block.md`.
 
 ### Map
 
@@ -67,7 +74,7 @@ Types: `added`, `improved`, `fixed`, `broken`, `knownIssue`. [Archbee Changelog 
 :::::
 ````
 
-See `MEDIA/map-blocks.md`. If blank, insert with `(map)` in Archbee and match exported markdown.
+See `MEDIA/map-block.md`. If blank, insert with `(map)` in Archbee and match exported markdown.
 
 ### File
 
@@ -83,7 +90,7 @@ See `MEDIA/map-blocks.md`. If blank, insert with `(map)` in Archbee and match ex
 - **`label`**: display name.
 - **`caption`**: trailing flag (no `=`) for caption UI, matching editor export from another project.
 
-See `MEDIA/file-blocks.md`.
+See `MEDIA/file-block.md`.
 
 ### Image
 
@@ -91,7 +98,7 @@ See `MEDIA/file-blocks.md`.
 ![](https://example.com/image.png)
 ```
 
-See **Images & YouTube Videos** (`MEDIA/images-embeds.md`). Link grid cards may use Imgur URLs listed below.
+See **Images & YouTube Videos** (`MEDIA/images-embeds-blocks.md`). Link grid cards may use Imgur URLs listed below.
 
 ### YouTube Video
 
@@ -100,7 +107,70 @@ See **Images & YouTube Videos** (`MEDIA/images-embeds.md`). Link grid cards may 
 :::::
 ````
 
-See **Images & YouTube Videos** (`MEDIA/images-embeds.md`). Fallbacks: `:::::Video{url="..."}` or a **plain YouTube URL** on its own line; compare export from `(video)` in the editor.
+See **Images & YouTube Videos** (`MEDIA/images-embeds-blocks.md`). Fallbacks: `:::::Video{url="..."}` or a **plain YouTube URL** on its own line; compare export from `(video)` in the editor.
+
+### GraphQL (GraphiQL explorer)
+
+Use this exact block form:
+
+````markdown
+:::GraphiQL
+```json
+{
+  "endpoint": "https://example.com/graphql",
+  "query": "{\n  field\n}"
+}
+```
+:::
+````
+
+**Frontmatter icon:** use known-working icons from existing pages (prefer `fa-solid`; avoid `fa-brands`).
+
+See `DEVELOPER/graphql-block.md`.
+
+### Scalar
+
+````markdown
+:::::Scalar
+```json
+{
+  "jsonFileLocation": "https://example.com/openapi.json",
+  "headers": []
+}
+```
+:::::
+````
+
+See `DEVELOPER/scalar-block.md`.
+
+### Swagger UI
+
+````markdown
+:::::Swagger
+```json
+{
+  "jsonFileLocation": "https://example.com/openapi.json",
+  "headers": []
+}
+```
+:::::
+````
+
+See `DEVELOPER/swagger-block.md`.
+
+### API Endpoint (ApiMethodV2)
+
+The inner `json` is the full block payload (method, URL, examples, results, request sections, and so on). Export from Archbee or copy from `DEVELOPER/api-endpoint-block.md`.
+
+````markdown
+:::::ApiMethodV2
+```json
+{ "...": "full payload from editor export" }
+```
+:::::
+````
+
+See `DEVELOPER/api-endpoint-block.md`.
 
 ---
 
@@ -145,26 +215,31 @@ https://i.imgur.com/S9lPyzp.jpeg
 | `BASIC/heading-expandable-blocks.md` | `heading-expandable-blocks` |
 | `BASIC/checklist-list-blocks.md` | `checklist-list-blocks` |
 | `BASIC/table-divider-blocks.md` | `table-divider-blocks` |
-| `BASIC/buttons-callouts.md` | `buttons-callouts` |
-| `BASIC/vertical-split-blocks.md` | `vertical-split-blocks` |
-| `BASIC/minitasker.md` | `minitasker` |
-| `BASIC/link-grids-blocks.md` | `link-grids-blocks` |
+| `BASIC/buttons-callouts-blocks.md` | `buttons-callouts` |
+| `BASIC/vertical-split-blocks.md` | `vertical-split-blocks` (contains Vertical Splits + Minitasker) |
+| `BASIC/link-grid-block.md` | `link-grids-blocks` |
 | `BASIC/workflow-tabs-blocks.md` | `workflow-tabs-blocks` |
 
 ### MEDIA
 
 | Path | `slug` |
 | ---- | ------ |
-| `MEDIA/file-blocks.md` | `file-blocks` (page title: **Files**) |
-| `MEDIA/images-embeds.md` | `images-embeds` (page title: **Images & YouTube Videos**) |
-| `MEDIA/map-blocks.md` | `map-blocks` |
+| `MEDIA/file-block.md` | `file-blocks` (page title: **Files**) |
+| `MEDIA/images-embeds-blocks.md` | `images-embeds` (page title: **Images & YouTube Videos**) |
+| `MEDIA/map-block.md` | `map-blocks` |
 
 ### DEVELOPER
 
 | Path | `slug` |
 | ---- | ------ |
+| `DEVELOPER/code-editor-block.md` | `code-editor-blocks` |
+| `DEVELOPER/code-drawer-block.md` | `code-drawer-blocks` |
 | `DEVELOPER/tex-mermaid-blocks.md` | `tex-mermaid-blocks` |
-| `DEVELOPER/changelog-blocks.md` | `changelog-blocks` |
+| `DEVELOPER/changelog-block.md` | `changelog-blocks` |
+| `DEVELOPER/api-endpoint-block.md` | `api-endpoint-blocks` |
+| `DEVELOPER/swagger-block.md` | `swagger-blocks` |
+| `DEVELOPER/scalar-block.md` | `scalar-blocks` |
+| `DEVELOPER/graphql-block.md` | `graphql-blocks` |
 
 ---
 
@@ -188,25 +263,31 @@ python3 -m json.tool archbee.json >/dev/null && echo OK
 
 | Kind | Component / pattern | Showcase file |
 | ---- | ------------------- | --------------- |
-| CTA | `CtaButton` | `BASIC/buttons-callouts.md` |
-| Callout | `hint` | `BASIC/buttons-callouts.md` |
+| CTA | `CtaButton` | `BASIC/buttons-callouts-blocks.md` |
+| Callout | `hint` | `BASIC/buttons-callouts-blocks.md` |
 | Expandable | `ExpandableHeading` | `BASIC/heading-expandable-blocks.md` |
 | Columns | `VerticalSplit` + `VerticalSplitItem` | `BASIC/vertical-split-blocks.md` |
-| Board | `DropList` + JSON | `BASIC/minitasker.md` |
-| Link grid | `LinkArray` + `LinkArrayItem` | `BASIC/link-grids-blocks.md` |
+| Board | `DropList` + JSON | `BASIC/vertical-split-blocks.md` |
+| Link grid | `LinkArray` + `LinkArrayItem` | `BASIC/link-grid-block.md` |
 | Workflow | `WorkflowBlock` + `WorkflowBlockItem` | `BASIC/workflow-tabs-blocks.md` |
 | Tabs | `Tabs` + `Tab` | `BASIC/workflow-tabs-blocks.md` |
 | Table | Markdown pipe table | `BASIC/table-divider-blocks.md` |
 | Table | Raw HTML `<table>` | `BASIC/table-divider-blocks.md` |
 | Divider | Markdown `***` | `BASIC/table-divider-blocks.md` |
 | Lists | `- [ ]`, `-`, `1.` | `BASIC/checklist-list-blocks.md` |
-| File | `::File[]{…}` (`src`, `label`, `caption`, `isUploading`) | `MEDIA/file-blocks.md` |
-| Image | `![](url)` | `MEDIA/images-embeds.md` |
-| YouTube Video | `:::::Embed{url="..."}` (or `:::::Video{url="..."}`) | `MEDIA/images-embeds.md` |
-| Map | `:::::Map` + fenced `json` body | `MEDIA/map-blocks.md` |
+| File | `::File[]{…}` (`src`, `label`, `caption`, `isUploading`) | `MEDIA/file-block.md` |
+| Image | `![](url)` | `MEDIA/images-embeds-blocks.md` |
+| YouTube Video | `:::::Embed{url="..."}` (or `:::::Video{url="..."}`) | `MEDIA/images-embeds-blocks.md` |
+| Map | `:::::Map` + fenced `json` body | `MEDIA/map-block.md` |
+| Code Editor | Fenced code block (for example ` ```javascript`) | `DEVELOPER/code-editor-block.md` |
+| Code Drawer | `::::CodeDrawer{...}` + nested tabs sections | `DEVELOPER/code-drawer-block.md` |
 | Mermaid | Fenced code block with language `mermaid` | `DEVELOPER/tex-mermaid-blocks.md` |
 | TeX | Fenced code block with language `tex` | `DEVELOPER/tex-mermaid-blocks.md` |
-| Changelog | `:::changelog` + `::changelog-item` (lowercase) | `DEVELOPER/changelog-blocks.md` |
+| Changelog | `:::changelog` + `::changelog-item` (lowercase) | `DEVELOPER/changelog-block.md` |
+| GraphQL (GraphiQL) | `:::GraphiQL` + fenced `json` + `:::` | `DEVELOPER/graphql-block.md` |
+| Scalar | `:::::Scalar` + fenced `json` | `DEVELOPER/scalar-block.md` |
+| Swagger UI | `:::::Swagger` + fenced `json` | `DEVELOPER/swagger-block.md` |
+| API Endpoint | `:::::ApiMethodV2` + fenced `json` | `DEVELOPER/api-endpoint-block.md` |
 
 ---
 
@@ -484,3 +565,4 @@ Minimal example:
 
 - **Sync duplication:** external sync can append the same file twice; if you see repeated YAML frontmatter, keep one clean copy.
 - **Fences:** mismatching colon counts breaks parsing — copy from this file or from the matching page under `docs/BASIC/`, `docs/MEDIA/`, or `docs/DEVELOPER/`.
+- **Do not guess syntax:** if a block breaks, copy the exact pattern from the working showcase file in this repo first.

@@ -25,32 +25,35 @@ Sidebar categories in **`archbee.json`** match **BASIC**, **MEDIA**, and **DEVEL
 | Heading 1, Expandable Heading 1, Heading 2, Expandable Heading 2, Heading 3, Expandable Heading 3 | `BASIC/heading-expandable-blocks.md` |
 | Checklist, Bulleted list, Numbered list | `BASIC/checklist-list-blocks.md` |
 | Table, Horizontal divider | `BASIC/table-divider-blocks.md` |
-| Button, Callout | `BASIC/buttons-callouts.md` |
+| Button, Callout | `BASIC/buttons-callouts-blocks.md` |
 | Vertical Split | `BASIC/vertical-split-blocks.md` |
-| Minitasker | `BASIC/minitasker.md` |
-| LinkGrid | `BASIC/link-grids-blocks.md` |
+| Minitasker | `BASIC/vertical-split-blocks.md` |
+| LinkGrid | `BASIC/link-grid-block.md` |
 | Workflow, Tabs | `BASIC/workflow-tabs-blocks.md` |
 
 ### MEDIA
 
 | Block types (product) | Showcase in this repo |
 | --------------------- | --------------------- |
-| File | `MEDIA/file-blocks.md` (page title: **Files**) |
-| Image | `MEDIA/images-embeds.md` |
-| YouTube or Vimeo | `MEDIA/images-embeds.md` |
-| Map | `MEDIA/map-blocks.md` |
+| File | `MEDIA/file-block.md` (page title: **Files**) |
+| Image | `MEDIA/images-embeds-blocks.md` |
+| YouTube or Vimeo | `MEDIA/images-embeds-blocks.md` |
+| Map | `MEDIA/map-block.md` |
 
 ### DEVELOPER
 
 | Block types (product) | Showcase in this repo |
 | --------------------- | --------------------- |
-| Code Editor | — |
-| Code Drawer | — |
+| Code Editor | `DEVELOPER/code-editor-block.md` |
+| Code Drawer | `DEVELOPER/code-drawer-block.md` |
 | Mermaid diagram, TeX | `DEVELOPER/tex-mermaid-blocks.md` |
-| API endpoint, Swagger UI, Scalar, GraphQL | — |
-| Changelog | `DEVELOPER/changelog-blocks.md` |
+| API endpoint | `DEVELOPER/api-endpoint-block.md` |
+| Swagger UI | `DEVELOPER/swagger-block.md` |
+| Scalar | `DEVELOPER/scalar-block.md` |
+| GraphQL | `DEVELOPER/graphql-block.md` |
+| Changelog | `DEVELOPER/changelog-block.md` |
 
-## GitHub sync — block patterns (TeX, Mermaid, Changelog, Map, File, image, YouTube)
+## GitHub sync — block patterns (canonical in this repo)
 
 Content authored in GitHub must use patterns Archbee’s parser recognizes. **JSX from the web editor** (`<Changelog>`, `<Map>`, `<embed>`, `<File>`) often shows **empty** after sync; use **colon directives / fences** and **fenced code** instead.
 
@@ -58,11 +61,22 @@ Content authored in GitHub must use patterns Archbee’s parser recognizes. **JS
 | ---- | -------- | --------------- |
 | **TeX** | ` ```tex` … ` ``` ` | `DEVELOPER/tex-mermaid-blocks.md` |
 | **Mermaid** | ` ```mermaid` … ` ``` ` | `DEVELOPER/tex-mermaid-blocks.md` |
-| **Changelog** | `:::changelog{title="…"}` + lines `::changelog-item{type="…" description="…"}` + close `:::` | `DEVELOPER/changelog-blocks.md` |
-| **Map** | `:::::Map` + ` ```json` { center, zoom, markerPositions } + `:::::` | `MEDIA/map-blocks.md` |
-| **File** | `::File[]{isUploading="false"}` or `::File[]{src="…" label="…" caption}` | `MEDIA/file-blocks.md` |
-| **Image** | `![](url)` | **Images & YouTube Videos** — `MEDIA/images-embeds.md` |
-| **YouTube Video** | `:::::Embed{url="https://youtu.be/…"}` + `:::::` (fallback: `:::::Video{url="…"}` or plain YouTube URL line) | `MEDIA/images-embeds.md` |
+| **Changelog** | `:::changelog{title="…"}` + lines `::changelog-item{type="…" description="…"}` + close `:::` | `DEVELOPER/changelog-block.md` |
+| **Map** | `:::::Map` + ` ```json` { center, zoom, markerPositions } + `:::::` | `MEDIA/map-block.md` |
+| **File** | `::File[]{isUploading="false"}` or `::File[]{src="…" label="…" caption}` | `MEDIA/file-block.md` |
+| **Image** | `![](url)` | **Images & YouTube Videos** — `MEDIA/images-embeds-blocks.md` |
+| **YouTube Video** | `:::::Embed{url="https://youtu.be/…"}` + `:::::` (fallback: `:::::Video{url="…"}` or plain YouTube URL line) | `MEDIA/images-embeds-blocks.md` |
+| **Code Editor** | Fenced code block (for example ` ```javascript`) | `DEVELOPER/code-editor-block.md` |
+| **Code Drawer** | `::::CodeDrawer{...}` + nested `:::CodeblockTabsExamples/Responses` | `DEVELOPER/code-drawer-block.md` |
+| **GraphQL (GraphiQL)** | `:::GraphiQL` + fenced `json` (`endpoint`, `query`) + `:::` | `DEVELOPER/graphql-block.md` |
+| **Scalar** | `:::::Scalar` + fenced `json` (`jsonFileLocation`, `headers`) + `:::::` | `DEVELOPER/scalar-block.md` |
+| **Swagger** | `:::::Swagger` + fenced `json` (`jsonFileLocation`, `headers`) + `:::::` | `DEVELOPER/swagger-block.md` |
+| **API Endpoint** | `:::::ApiMethodV2` + fenced `json` (full method payload) + `:::::` | `DEVELOPER/api-endpoint-block.md` |
+
+For this repo, **do not invent syntax**. Copy from the matching showcase file under `docs/`.  
+Known-safe patterns: GraphQL uses `:::GraphiQL ... :::`; Scalar/Swagger/API Endpoint use `:::::BlockName` + inner ` ```json `; Map uses the same wrapper style.
+
+**Icons:** Use only icon shapes confirmed in existing docs (`fa-solid` or known `lucideIcon` values). Avoid `fa-brands`. If tree icon/label is stale, set explicit `name` in `archbee.json` for that doc entry.
 
 **Changelog types:** `added`, `improved`, `fixed`, `broken`, `knownIssue`. **Changelog fences are lowercase** (`changelog`, `changelog-item`).
 
@@ -93,6 +107,13 @@ Copy-paste templates live in **[reference-blocks.md](reference-blocks.md)** → 
 - **Callouts** = `hint` blocks; **Buttons** = `CtaButton`.
 - **Link grids** = `LinkArray`; **3 per row** → `itemsPerRow="3"`.
 
+## File naming convention (strict)
+
+- If a page demonstrates **multiple block types**, filename must end with **`-blocks.md`**.
+- If a page demonstrates **one block type**, filename must end with **`-block.md`**.
+- Keep existing `slug` values stable unless the user explicitly asks to change slugs.
+- When renaming files, update **all** references (`archbee.json`, skill docs, and any internal doc links).
+
 ## Block syntax (colon fences — editor-style blocks)
 
 Use the same colon counts as sibling lines in each file. Common blocks:
@@ -110,7 +131,7 @@ Use the same colon counts as sibling lines in each file. Common blocks:
 
 **Tables:** Markdown pipes; HTML `<table>` — see `reference-blocks.md` and `BASIC/table-divider-blocks.md`.
 
-**Files (GitHub sync):** `::File[]{…}` — see `MEDIA/file-blocks.md`.
+**Files (GitHub sync):** `::File[]{…}` — see `MEDIA/file-block.md`.
 
 ## Images for link grid headers
 
@@ -121,6 +142,8 @@ Use **i.imgur.com** `.jpeg` URLs. List in **`reference-blocks.md`** → **Link g
 - **No duplicate appended sections** from broken sync.
 - **Consistency:** frontmatter `title` / `slug` / `icon` match sibling files.
 - **Minimal diffs** for unrelated docs.
+- **DO NOT GUESS BLOCK FORMAT:** copy the exact block wrapper/fence from the existing showcase page for that block type.
+- **RE-SYNC SAFE:** after edits, verify `archbee.json` is valid and all changed docs are included in `docsTree`.
 
 ## More detail
 

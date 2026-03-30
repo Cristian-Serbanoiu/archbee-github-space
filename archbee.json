@@ -26,35 +26,38 @@
         "children": [
           {
             "path": "BASIC/heading-expandable-blocks.md",
-            "children": []
+            "children": [],
+            "name": "Headings & Expandable Headings"
           },
           {
             "path": "BASIC/checklist-list-blocks.md",
-            "children": []
+            "children": [],
+            "name": "Checklists & Lists"
           },
           {
             "path": "BASIC/table-divider-blocks.md",
-            "children": []
+            "children": [],
+            "name": "Tables & Dividers"
           },
           {
-            "path": "BASIC/buttons-callouts.md",
-            "children": []
+            "path": "BASIC/buttons-callouts-blocks.md",
+            "children": [],
+            "name": "Buttons & Callouts"
           },
           {
             "path": "BASIC/vertical-split-blocks.md",
+            "name": "Vertical Splits & Minitasker",
             "children": []
           },
           {
-            "path": "BASIC/minitasker.md",
-            "children": []
-          },
-          {
-            "path": "BASIC/link-grids-blocks.md",
-            "children": []
+            "path": "BASIC/link-grid-block.md",
+            "children": [],
+            "name": "Link Grids"
           },
           {
             "path": "BASIC/workflow-tabs-blocks.md",
-            "children": []
+            "children": [],
+            "name": "Workflows & Tabs"
           }
         ]
       },
@@ -63,16 +66,19 @@
         "isCategory": true,
         "children": [
           {
-            "path": "MEDIA/file-blocks.md",
+            "path": "MEDIA/file-block.md",
+            "name": "Files",
             "children": []
           },
           {
-            "path": "MEDIA/images-embeds.md",
-            "children": []
+            "path": "MEDIA/images-embeds-blocks.md",
+            "children": [],
+            "name": "Images & YouTube Videos"
           },
           {
-            "path": "MEDIA/map-blocks.md",
-            "children": []
+            "path": "MEDIA/map-block.md",
+            "children": [],
+            "name": "Maps"
           }
         ]
       },
@@ -81,36 +87,44 @@
         "isCategory": true,
         "children": [
           {
-            "path": "DEVELOPER/archbee-doc-6YcmNlWAwblh4JZDnAZ0l.mdx",
-            "children": []
+            "path": "DEVELOPER/api-endpoint-block.md",
+            "children": [],
+            "name": "API Endpoint"
           },
           {
-            "path": "DEVELOPER/archbee-doc-Np7I5sX478l2pHoXe_Fh8.mdx",
-            "children": []
+            "path": "DEVELOPER/swagger-block.md",
+            "children": [],
+            "name": "Swagger"
           },
           {
-            "path": "DEVELOPER/archbee-doc-h69z1msWAWF71CpeATAtM.mdx",
-            "children": []
+            "path": "DEVELOPER/scalar-block.md",
+            "children": [],
+            "name": "Scalar"
           },
           {
-            "path": "DEVELOPER/archbee-doc-2kNfxKoZBaLeV13I-LuZw.mdx",
-            "children": []
+            "path": "DEVELOPER/graphql-block.md",
+            "children": [],
+            "name": "GraphQL"
           },
           {
-            "path": "DEVELOPER/archbee-doc-1aIqu70q2rDtz1kD6PmhW.mdx",
-            "children": []
+            "path": "DEVELOPER/code-drawer-block.md",
+            "children": [],
+            "name": "Code Drawer"
           },
           {
-            "path": "DEVELOPER/archbee-doc-QLYn5A9pkTY4FaXPK6ss3.mdx",
-            "children": []
+            "path": "DEVELOPER/code-editor-block.md",
+            "children": [],
+            "name": "Code Editor"
           },
           {
             "path": "DEVELOPER/tex-mermaid-blocks.md",
-            "children": []
+            "children": [],
+            "name": "TeX & Mermaid"
           },
           {
-            "path": "DEVELOPER/changelog-blocks.md",
-            "children": []
+            "path": "DEVELOPER/changelog-block.md",
+            "children": [],
+            "name": "Changelog"
           }
         ]
       },
