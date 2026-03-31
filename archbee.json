@@ -118,6 +118,7 @@
           {
             "children": [],
             "isLink": true,
+            "icon": "🙂",
             "linkTitle": "External Link - Filled - Custom Icon",
             "linkHref": "www.archbee.com",
             "linkOpensInNewTab": false
