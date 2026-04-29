@@ -3,14 +3,14 @@ title: API Endpoint
 slug: api-endpoint-blocks
 icon: {"faIcon":"fa-solid fa-plug"}
 docTags: Revenge
-createdAt: 2026-03-30T10:00:00.000Z
-updatedAt: 2026-03-31T10:00:00.000Z
+createdAt: Tue Apr 28 2026 13:00:08 GMT+0000 (Coordinated Universal Time)
+updatedAt: Wed Apr 29 2026 08:19:15 GMT+0000 (Coordinated Universal Time)
 ---
 
-:::::ApiMethodV2
+:::ApiMethodV2
 ```json
 {
-  "name": "Get Cakes",
+  "name": "Get Cakes 1",
   "method": "GET",
   "url": "https://api.cakes.com",
   "description": "Get a cake by its ID",
@@ -47,6 +47,7 @@ updatedAt: 2026-03-31T10:00:00.000Z
     "pathParameters": [],
     "queryParameters": [],
     "headerParameters": [],
+    "formDataParameters": [],
     "bodyDataParameters": [
       {
         "name": "id",
@@ -54,8 +55,7 @@ updatedAt: 2026-03-31T10:00:00.000Z
         "type": "string",
         "description": "ID of the cake to get"
       }
-    ],
-    "formDataParameters": []
+    ]
   },
   "currentNewParameter": {
     "label": "Body Parameter",
@@ -64,4 +64,6 @@ updatedAt: 2026-03-31T10:00:00.000Z
   "hasTryItOut": false
 }
 ```
-:::::
+:::
+
+de la mihai
