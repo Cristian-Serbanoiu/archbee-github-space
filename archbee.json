@@ -29,6 +29,14 @@
         "isCategory": true,
         "children": [
           {
+            "path": "BASIC/ZisLQbVLN0Ce5zcjWHRXq.mdx",
+            "children": []
+          },
+          {
+            "path": "BASIC/sadsa.mdx",
+            "children": []
+          },
+          {
             "path": "BASIC/heading-expandable-blocks.md",
             "children": []
           },
