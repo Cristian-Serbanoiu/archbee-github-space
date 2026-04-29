@@ -4,7 +4,7 @@ slug: vertical-split-blocks
 icon: {"lucideIcon":"Columns2"}
 docTags: Revenge
 createdAt: Wed Apr 29 2026 12:33:04 GMT+0000 (Coordinated Universal Time)
-updatedAt: Wed Apr 29 2026 12:45:00 GMT+0000 (Coordinated Universal Time)
+updatedAt: Wed Apr 29 2026 12:50:32 GMT+0000 (Coordinated Universal Time)
 ---
 
 ## Left Alignment
@@ -116,4 +116,3 @@ Dummy right content.
 }
 ```
 :::
-
