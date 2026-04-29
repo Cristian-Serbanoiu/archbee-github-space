@@ -3,8 +3,8 @@ title: Checklists & Lists
 slug: checklist-list-blocks
 icon: {"faIcon":"fa-solid fa-list-check"}
 docTags: Revenge
-createdAt: 2026-03-30T10:00:00.000Z
-updatedAt: 2026-03-30T10:00:00.000Z
+createdAt: Wed Apr 29 2026 12:33:04 GMT+0000 (Coordinated Universal Time)
+updatedAt: Wed Apr 29 2026 12:51:21 GMT+0000 (Coordinated Universal Time)
 ---
 
 ## Checklist Blocks
