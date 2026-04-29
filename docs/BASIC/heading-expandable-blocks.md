@@ -3,11 +3,11 @@ title: Headings & Expandable Headings
 slug: heading-expandable-blocks
 icon: {"lucideIcon":"Heading"}
 docTags: Revenge
-createdAt: Wed Apr 29 2026 12:33:04 GMT+0000 (Coordinated Universal Time)
-updatedAt: Wed Apr 29 2026 12:45:37 GMT+0000 (Coordinated Universal Time)
+createdAt: Wed Apr 29 2026 15:02:22 GMT+0000 (Coordinated Universal Time)
+updatedAt: Wed Apr 29 2026 15:02:47 GMT+0000 (Coordinated Universal Time)
 ---
 
-# Heading 1
+# Heading 1.11
 
 ## Heading 2
 
@@ -30,3 +30,4 @@ Dummy expandable content for Heading 2.
 
 Dummy expandable content for Heading 3.
 :::
+
