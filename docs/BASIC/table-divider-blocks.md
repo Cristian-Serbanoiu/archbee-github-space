@@ -4,7 +4,7 @@ slug: table-divider-blocks
 icon: {"lucideIcon":"Table"}
 docTags: Revenge
 createdAt: Wed Apr 29 2026 15:02:22 GMT+0000 (Coordinated Universal Time)
-updatedAt: Wed Apr 29 2026 15:02:45 GMT+0000 (Coordinated Universal Time)
+updatedAt: Wed Apr 29 2026 15:04:22 GMT+0000 (Coordinated Universal Time)
 ---
 
 ## Markdown Tablesss
@@ -142,4 +142,3 @@ updatedAt: Wed Apr 29 2026 15:02:45 GMT+0000 (Coordinated Universal Time)
 </table>
 
 ***
-

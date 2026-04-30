@@ -3,8 +3,8 @@ title: Buttons & Callouts
 slug: buttons-callouts
 icon: {"faIcon":"fa-solid fa-bullhorn"}
 docTags: Revenge
-createdAt: Wed Apr 29 2026 12:33:04 GMT+0000 (Coordinated Universal Time)
-updatedAt: Wed Apr 29 2026 12:50:32 GMT+0000 (Coordinated Universal Time)
+createdAt: Wed Apr 29 2026 15:02:22 GMT+0000 (Coordinated Universal Time)
+updatedAt: Thu Apr 30 2026 07:09:05 GMT+0000 (Coordinated Universal Time)
 ---
 
 :::CtaButton{label="BLANK BUTTON" openInNewTab="true" noFollow="false"}
@@ -29,8 +29,11 @@ Dummy success callout content.
 
 :::hint{type="warning"}
 Dummy warning callout content. sadsa
+
+sdasa
 :::
 
 :::hint{type="danger"}
 Dummy danger callout content.
 :::
+
