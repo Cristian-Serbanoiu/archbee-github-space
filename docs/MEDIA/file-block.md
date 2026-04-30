@@ -4,7 +4,7 @@ slug: file-blocks
 icon: {"lucideIcon":"FileUp"}
 docTags: Revenge
 createdAt: Wed Apr 29 2026 15:02:22 GMT+0000 (Coordinated Universal Time)
-updatedAt: Thu Apr 30 2026 07:08:42 GMT+0000 (Coordinated Universal Time)
+updatedAt: Thu Apr 30 2026 07:09:51 GMT+0000 (Coordinated Universal Time)
 ---
 
 ## File - Empty
