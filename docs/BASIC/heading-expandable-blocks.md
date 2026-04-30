@@ -4,10 +4,10 @@ slug: heading-expandable-blocks
 icon: {"lucideIcon":"Heading"}
 docTags: Revenge
 createdAt: Thu Apr 30 2026 07:35:13 GMT+0000 (Coordinated Universal Time)
-updatedAt: Thu Apr 30 2026 08:02:20 GMT+0000 (Coordinated Universal Time)
+updatedAt: Thu Apr 30 2026 08:57:32 GMT+0000 (Coordinated Universal Time)
 ---
 
-# Heading 1,aaa
+# Heading 1,new
 
 ## Heading 2
 
