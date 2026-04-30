@@ -4,10 +4,10 @@ slug: buttons-callouts
 icon: {"faIcon":"fa-solid fa-bullhorn"}
 docTags: Revenge
 createdAt: Wed Apr 29 2026 15:02:22 GMT+0000 (Coordinated Universal Time)
-updatedAt: Thu Apr 30 2026 07:09:05 GMT+0000 (Coordinated Universal Time)
+updatedAt: Thu Apr 30 2026 07:16:07 GMT+0000 (Coordinated Universal Time)
 ---
 
-:::CtaButton{label="BLANK BUTTON" openInNewTab="true" noFollow="false"}
+:::CtaButton{label="BLANK BUTTON1" openInNewTab="true" noFollow="false"}
 
 :::
 

@@ -4,12 +4,12 @@ slug: link-grids-blocks
 icon: {"lucideIcon":"LayoutGrid"}
 docTags: Revenge
 createdAt: Wed Apr 29 2026 15:02:22 GMT+0000 (Coordinated Universal Time)
-updatedAt: Thu Apr 30 2026 07:08:32 GMT+0000 (Coordinated Universal Time)
+updatedAt: Thu Apr 30 2026 07:09:51 GMT+0000 (Coordinated Universal Time)
 ---
 
 ## Link Grids - Content Only adsadsa
 
-::::LinkArray{contentSource="CUSTOM"}
+::::LinkArray
 :::LinkArrayItem
 Dummy link grid content D1.
 :::
@@ -25,7 +25,7 @@ Dummy link grid content D3.
 
 ## Link Grids - Color Headers
 
-::::LinkArray{contentSource="CUSTOM"}
+::::LinkArray
 :::LinkArrayItem{headerType="COLOR" headerColor="#CA8A04"}
 Dummy link grid card B1.
 :::
@@ -41,7 +41,7 @@ Dummy link grid card B3.
 
 ## Link Grids - Image Headers
 
-::::LinkArray{contentSource="CUSTOM"}
+::::LinkArray
 :::LinkArrayItem{headerType="IMAGE" headerImage="https://i.imgur.com/egDw6na.jpeg"}
 Dummy link grid card C1.
 :::
@@ -54,4 +54,3 @@ Dummy link grid card C2.
 Dummy link grid card C3.
 :::
 ::::
-
