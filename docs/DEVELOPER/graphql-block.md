@@ -3,8 +3,8 @@ title: GraphQL
 slug: graphql-blocks
 icon: {"faIcon":"fa-solid fa-diagram-project"}
 docTags: Revenge
-createdAt: 2026-03-30T10:00:00.000Z
-updatedAt: 2026-03-31T12:20:00.000Z
+createdAt: Thu Apr 30 2026 07:35:13 GMT+0000 (Coordinated Universal Time)
+updatedAt: Thu Apr 30 2026 12:10:20 GMT+0000 (Coordinated Universal Time)
 ---
 
 :::GraphiQL
@@ -15,3 +15,4 @@ updatedAt: 2026-03-31T12:20:00.000Z
 }
 ```
 :::
+
